@@ -1,0 +1,11 @@
+{
+  "version": "1.0",
+  "apis": [
+    {
+      "identifier": "alloy-public",
+      "source": "@alloy-public/v1.0#5zaf2wm24wx8r1",
+      "integrity": "sha512-jkecNhmUHBE7PK4Mi69aHWdXQnoj3bMEtNENzgMiCPjIIZszjPdb7A8EuyjnxVbfvdSGmcMmydef8TXDuy0fOQ==",
+      "installerVersion": "6.1.2"
+    }
+  ]
+}
