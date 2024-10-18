@@ -28,7 +28,10 @@ app.post('/api/apply', (req, res) => {
     return res.json({ summary: { outcome: data.summary.outcome } });
 
   })
-  .catch(err => console.error(err));
+  .catch(err => {
+    console.error(err);
+    return res.status(500).json({ error: 'Internal Server Error' });
+  });
 });
 
 // Start the server

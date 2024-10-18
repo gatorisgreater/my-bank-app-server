@@ -15,6 +15,9 @@
     "dotenv": "^16.4.5",
     "express": "^4.21.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  },
   "description": ""
 }
